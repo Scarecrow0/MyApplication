@@ -18,4 +18,5 @@ public class OpenCVCanny {
      * @return 边缘图
      */
     public static native int[] canny(int[] buf, int w, int h);
+
 }

@@ -1,296 +1,203 @@
-C:/Users/lijialin/AndroidStudioProjects/MyApplication/app/src/main//obj/local/armeabi/objs/OpenCV/canny.o: \
- C:/Users/lijialin/AndroidStudioProjects/MyApplication/app/src/main//jni/canny.cpp \
- C:/Users/lijialin/AndroidStudioProjects/MyApplication/app/src/main//jni/canny.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/jni.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/android/api-level.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdio.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdint.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/_types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/_types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdlib.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/string.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/malloc.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/alloca.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/strings.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/memory.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/opencv.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvdef.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/limits.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/limits.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/limits.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/internal_types.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/limits.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/page.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/hal/interface.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/version.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/base.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/climits \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvstd.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstring \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cctype \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/string \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/ptr.inl.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/neon_utils.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/traits.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/matx.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/saturate.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/fast_math.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/types.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/vector \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/mat.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/bufferpool.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/mat.inl.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/persistence.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/operations.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstdio \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvstd.inl.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/complex \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/utility.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/core_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/types_c.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/assert.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/optim.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/imgproc_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/types_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/photo.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/photo/photo_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/tracking.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/background_segm.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/tracking_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/features2d.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/miniflann.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/defines.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/config.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect/detection_based_tracker.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect/objdetect_c.h \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/deque \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/calib3d.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/affine.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/calib3d/calib3d_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgcodecs.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/videoio.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/highgui.hpp \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/highgui/highgui_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgcodecs/imgcodecs_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/videoio/videoio_c.h \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/ml.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/map \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream \
- C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/imgproc.hpp \
- C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/android/log.h
+/home/scarecrow/JNIProject/app/src/main/obj/local/armeabi/objs/OpenCV/canny.o: \
+  /home/scarecrow/JNIProject/app/src/main/jni/canny.cpp \
+  /home/scarecrow/JNIProject/app/src/main/jni/canny.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/opencv.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvdef.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/hal/interface.h \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/version.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/base.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/climits \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvstd.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cctype \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/string \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cmath \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/ptr.inl.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/neon_utils.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/traits.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/matx.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/saturate.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/fast_math.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/types.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/vector \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/mat.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/bufferpool.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/mat.inl.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/persistence.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/operations.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdio \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvstd.inl.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/complex \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/utility.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/core_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/types_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/optim.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/imgproc_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/types_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/photo.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/photo/photo_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/video.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/video/tracking.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/video/background_segm.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/video/tracking_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/features2d.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/flann/miniflann.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/flann/defines.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/flann/config.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect/detection_based_tracker.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect/objdetect_c.h \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/deque \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/calib3d.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/core/affine.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/calib3d/calib3d_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgcodecs.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/videoio.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/highgui.hpp \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/highgui/highgui_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgcodecs/imgcodecs_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/videoio/videoio_c.h \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/ml.hpp \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/map \
+  /root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream \
+  /home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/imgproc.hpp
 
-C:/Users/lijialin/AndroidStudioProjects/MyApplication/app/src/main//jni/canny.h:
+/home/scarecrow/JNIProject/app/src/main/jni/canny.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/jni.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/opencv.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvdef.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/android/api-level.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/hal/interface.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdio.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstddef:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/types.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/version.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdint.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/base.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/_types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/climits:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/_types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/algorithm:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvstd.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstring:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cctype:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/string:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdlib:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cmath:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/ptr.inl.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/neon_utils.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/stdlib.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/traits.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/string.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/matx.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/malloc.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/saturate.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/alloca.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/fast_math.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/strings.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/types.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/memory.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cfloat:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/opencv.hpp:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/vector:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/mat.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvdef.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/bufferpool.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/limits.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/mat.inl.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/limits.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/persistence.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/linux/limits.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/operations.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/internal_types.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/cstdio:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/machine/limits.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/cvstd.inl.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/sys/syslimits.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/complex:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/asm/page.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/utility.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/hal/interface.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/core_c.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstddef:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/types_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/version.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/optim.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/base.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/climits:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/imgproc_c.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/algorithm:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/types_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvstd.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/photo.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstring:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/photo/photo_c.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cctype:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/video.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/string:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/video/tracking.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cmath:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/video/background_segm.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/ptr.inl.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/video/tracking_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/neon_utils.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/features2d.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/traits.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/flann/miniflann.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/matx.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/flann/defines.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/saturate.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/flann/config.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/fast_math.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/types.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect/detection_based_tracker.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cfloat:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/objdetect/objdetect_c.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/vector:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/deque:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/mat.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/calib3d.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/bufferpool.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/core/affine.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/mat.inl.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/calib3d/calib3d_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/persistence.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgcodecs.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/operations.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/videoio.hpp:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/cstdio:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/highgui.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/cvstd.inl.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/highgui/highgui_c.h:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/complex:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgcodecs/imgcodecs_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/utility.hpp:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/videoio/videoio_c.h:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/core_c.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/ml.hpp:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/types_c.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/map:
 
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/assert.h:
+/root/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/iostream:
 
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/optim.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/imgproc_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/types_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/photo.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/photo/photo_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/tracking.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/background_segm.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/video/tracking_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/features2d.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/miniflann.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/defines.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/flann/config.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect/detection_based_tracker.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/objdetect/objdetect_c.h:
-
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/deque:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/calib3d.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/core/affine.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/calib3d/calib3d_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgcodecs.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/videoio.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/highgui.hpp:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/highgui/highgui_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgcodecs/imgcodecs_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/videoio/videoio_c.h:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/ml.hpp:
-
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/map:
-
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/sources/cxx-stl/gnu-libstdc++/4.6/include/iostream:
-
-C:/Users\lijialin\AndroidStudioProjects\MyApplication\native\jni\/include/opencv2/imgproc/imgproc.hpp:
-
-C:/Users/lijialin/AppData/Local/Android/android-ndk-r10/platforms/android-8/arch-arm/usr/include/android/log.h:
+/home/scarecrow/JNIProject/native/jni/include/opencv2/imgproc/imgproc.hpp:
