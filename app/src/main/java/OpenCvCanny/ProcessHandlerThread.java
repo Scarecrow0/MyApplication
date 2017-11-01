@@ -46,9 +46,8 @@ public class ProcessHandlerThread extends HandlerThread {
                 int h = img1.getHeight();
 
 
-                //todo 接口修改
                 //在这里发起canny过程
-                //OpenCVCannyLib.canny(imgpix1,imgpix2,w,h,jniProcessInteractCallback);
+                OpenCVCannyLib.cannyLauncher(imgpix1, imgpix2, w, h, jniProcessInteractCallback);
 
             }
         };

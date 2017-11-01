@@ -17,9 +17,11 @@ extern  "C" {
 
 // JNIEnv 代表java环境，通过这个参数可以调用java中的方法
 
-JNIEXPORT jintArray JNICALL Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass obj, jintArray buf, int w, int h);
+JNIEXPORT jintArray JNICALL
+Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass obj, jintArray buf, int w, int h);
 
-JNIEXPORT jintArray JNICALL Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass obj, jintArray buf, int w, int h) {
+JNIEXPORT jintArray JNICALL
+Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass obj, jintArray buf, int w, int h) {
 
     jint *cbuf;
     cbuf = env->GetIntArrayElements(buf, false); // 读取输入参数

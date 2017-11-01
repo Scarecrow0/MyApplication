@@ -16,19 +16,22 @@ public class OpenCVCannyLib {
         System.loadLibrary("OpenCV"); // 加载编译好的.so动态库
     }
 
+
+    //      jni 相关函数定义
     /**
      * 声明native方法，调用OpenCV的边缘检测
      *
-     * @param buf 图像
+     * @param img1buf 图像1
+     * @param img2buf 图像2
      * @param w   宽
      * @param h   高
-     * @return 边缘图
+     * @param callback 回调类
      */
 
-
-    //      jni 相关函数定义
-    //todo 接口函数编写 修改
-    public static native int[] canny(int[] buf, int w, int h);
+    //todo  java.lang.UnsatisfiedLinkError: No implementation found for v...
+    //找不到函数 有毒吧
+    public static native void cannyLauncher
+    (int[] img1buf, int[] img2buf, int w, int h, Object callback);
 
 
     //      处理内部事务的线程
