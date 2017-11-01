@@ -6,10 +6,12 @@ import android.os.Message;
 
 /**
  * Created by root on 17-10-31.
+ * 直接与使用者交互，使用者通过这里发起canny过程，
+ * 设定回调函数，当canny流程到达特点节点时
+ * 在主线程进行什么样的动作 （更新imageview textview ）
  */
 
 public class OpenCVCannyLibInteract {
-    private CallbackInterface callbackInterface;
     private Handler interactHandler;
     private static final OpenCVCannyLib openCVCanny = new OpenCVCannyLib();
 
@@ -18,8 +20,9 @@ public class OpenCVCannyLibInteract {
             ON_LINE_MATCHING_COMPLETE = 85;
 
 
+    //接受从工作线程传来的消息和数据
+    // 进行用户设定回调函数的回调
     public OpenCVCannyLibInteract(final CallbackInterface callbackInterface) {
-        this.callbackInterface = callbackInterface;
         interactHandler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
@@ -50,7 +53,7 @@ public class OpenCVCannyLibInteract {
     }
 
     public void startMatchimg(Bitmap img1, Bitmap img2) {
-        //  TODO 这里传入图片进行调用
+        // 这里传入图片进行调用
         openCVCanny.startMatching(interactHandler, img1, img2);
     }
 
@@ -67,20 +70,5 @@ public class OpenCVCannyLibInteract {
     }
 
 
-    public class CallbackResult {
-        Bitmap img1, img2;
-        double matchRate;
-
-        public CallbackResult(Bitmap img1, Bitmap img2) {
-            this.img1 = img1;
-            this.img2 = img2;
-        }
-
-        public CallbackResult(Bitmap img1, Bitmap img2, double matchRate) {
-            this.img1 = img1;
-            this.img2 = img2;
-            this.matchRate = matchRate;
-        }
-    }
 }
 

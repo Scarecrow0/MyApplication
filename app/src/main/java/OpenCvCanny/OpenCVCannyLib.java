@@ -2,11 +2,12 @@ package OpenCvCanny;
 
 import android.graphics.Bitmap;
 import android.os.Handler;
-import android.os.HandlerThread;
-import android.os.Message;
+
 
 /**
  * Created by root on 17-10-31.
+ * 直接封装jni部分
+ * 负责从interface接受调用 构造 启动工作线程
  */
 
 public class OpenCVCannyLib {
@@ -24,47 +25,43 @@ public class OpenCVCannyLib {
      * @return 边缘图
      */
 
-    //todo 接口函数修改
-    public static native int[] canny(int[] buf, int w, int h);
 
     //      jni 相关函数定义
-//      处理内部事务的线程
-    private ProcesseHandlerThread processingThread;
+    //todo 接口函数编写 修改
+    public static native int[] canny(int[] buf, int w, int h);
 
+
+    //      处理内部事务的线程
+    private ProcessHandlerThread processingThread;
 
     //  负责从外部接受调用的方法
-    public void startMatching(Handler callback, Bitmap img1, Bitmap img2) {
+    public void startMatching(Handler callback, final Bitmap img1, final Bitmap img2) {
+        processingThread = new ProcessHandlerThread(callback);
+        processingThread.setLooperPreparedListenner(new ProcessHandlerThread.LooperPreparedListenner() {
+            @Override
+            public void onLooperPrepared() {
+                processingThread.startCannyProcess(img1, img2);
+                // 将匹配图片传入内部线程 发起匹配过程
+            }
+        });
+        processingThread.start();
+        processingThread.getLooper();
+        //启动内部线程 准备进行canny
 
     }
 
+    public static int[] bitmap2IntaArray(Bitmap bitmap) {
+        int width = bitmap.getWidth();
+        int height = bitmap.getHeight();
+        int[] pix = new int[width * height];
+        bitmap.getPixels(pix, 0, width, 0, 0, width, height);
+        return pix;
+    }
 
-    private class ProcesseHandlerThread extends HandlerThread {
-        private static final String TAG = "ProcesseHandlerThread";
-        private Handler interactCallback,
-                processCanny;
-
-        public ProcesseHandlerThread(Handler callback) {
-            super(TAG);
-            this.interactCallback = callback;
-        }
-
-        //todo  对handler发异步消息
-
-        // TODO 构建looper ready listener
-
-        @Override
-        public void onLooperPrepared() {
-
-            processCanny = new Handler() {
-                @Override
-                public void handleMessage(Message msg) {
-                    // todo: 从这里传入callback interface, 开始进行调用canny的jni
-                    //
-
-                }
-            };
-        }
-
+    public static Bitmap intArray2Bitmap(int[] pix, int width, int height) {
+        Bitmap resultBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444);
+        resultBitmap.setPixels(pix, 0, width, 0, 0, width, height);
+        return resultBitmap;
     }
 
 }
