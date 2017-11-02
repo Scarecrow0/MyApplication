@@ -3,16 +3,25 @@
 // 这是写canny jni 部分代码的地方
 // todo  构造自己的jni各个接口
 
-#include "canny_lib.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <android/log.h>
 #include <jni.h>
+//来自调用函数的jni类
+#include "OpenCvCanny_OpenCVCannyLib.h"
+//cpp部分各种函数的头文件
+#include "canny_lib.h"
 
 using namespace cv;
 
+// 记得各种java的int之类的类型都得转成jint什么的
+JNIEXPORT void JNICALL Java_OpenCvCanny_OpenCVCannyLib_cannyLauncher
+        (JNIEnv *env, jclass obj, jintArray img1_param, jintArray img2_param, jint w, jint h, jobject callback){
 
-JNIEXPORT void JNICALL
-Java_OpenCvCanny_OpenCVCannyLib_cannyLauncher(JNIEnv *env, jclass obj, jintArray img1_param, jintArray img2_param, int w, int h, jobject callback) {
 
-    jclass callback_class = env->GetObjectClass(obj);
+    jclass callback_class = env->GetObjectClass(callback);
     //回调类的获得
     jmethodID onEdgeDetected =
             env->GetMethodID(callback_class, "onEdgeDetectComplete", "([I[III)V");
@@ -40,7 +49,7 @@ Java_OpenCvCanny_OpenCVCannyLib_cannyLauncher(JNIEnv *env, jclass obj, jintArray
 
     jintArray result_edgedetect = bitmapArrayFactory(env,image,w,h);
 
-    __android_log_print(1,"from jni hhhh","dsadasda");
+    //通过传入的回调类 进行对app部分的回调
     env->CallVoidMethod(callback,onEdgeDetected,result_edgedetect,result_edgedetect,w,h);
 
 

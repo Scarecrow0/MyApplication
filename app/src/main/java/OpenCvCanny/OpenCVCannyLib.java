@@ -28,7 +28,7 @@ public class OpenCVCannyLib {
      * @param callback 回调类
      */
 
-    //todo  java.lang.UnsatisfiedLinkError: No implementation found for v...
+
     //找不到函数 有毒吧
     public static native void cannyLauncher
     (int[] img1buf, int[] img2buf, int w, int h, Object callback);
