@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/Line.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/Line.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/MinHeap.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/MinHeap.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/canny.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/canny.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/canny_lib_src/main.cpp" charset="UTF-8" />
+  </component>
+</project>
