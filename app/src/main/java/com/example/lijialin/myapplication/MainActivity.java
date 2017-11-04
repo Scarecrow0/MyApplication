@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onEdgeDetectComplete(Bitmap img1, Bitmap img2) {
                 Log.d("MainActivity", "onEdgeDetectComplete: ");
                 ImageView view = (ImageView) findViewById(R.id.resultView);
-                view.setImageBitmap(img1);
+                view.setImageBitmap(img2);
                 view.setVisibility(View.VISIBLE);
             }
 
