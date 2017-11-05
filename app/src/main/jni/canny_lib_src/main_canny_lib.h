@@ -6,6 +6,7 @@
 #define JNIPROJECT_MAIN_CANNY_LIB_H
 #include "Line.h"
 #include "MinHeap.h"
+#include "canny.h"
 using namespace std;
 using namespace cv;
 

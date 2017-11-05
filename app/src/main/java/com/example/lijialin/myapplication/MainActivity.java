@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onEdgeDetectComplete(Bitmap img1, Bitmap img2) {
                 Log.d("MainActivity", "onEdgeDetectComplete: ");
-                ImageView view = (ImageView) findViewById(R.id.resultView);
+                ImageView view = (ImageView) findViewById(R.id.edge_detect_image1);
                 view.setImageBitmap(img2);
                 view.setVisibility(View.VISIBLE);
             }
@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLineSegmentExtractionComplete(Bitmap img1, Bitmap img2) {
                 Log.d("MainActivity", "onLineSegmentExtractionComplete: ");
+                ImageView view = (ImageView) findViewById(R.id.segment_image1);
+                view.setImageBitmap(img1);
+                view.setVisibility(View.VISIBLE);
             }
 
             @Override
