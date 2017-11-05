@@ -23,13 +23,15 @@ public class OpenCVCannyLib {
      *
      * @param img1buf 图像1
      * @param img2buf 图像2
-     * @param w   宽
-     * @param h   高
+     * @param w1   图像1宽
+     * @param h1   图像1高
+     * @param w2   图像2宽
+     * @param h2   图像2高
      * @param callback 回调类
      */
 
     public static native void cannyLauncher
-    (int[] img1buf, int[] img2buf, int w, int h, JNIProcessInteractCallback callback);
+    (int[] img1buf, int[] img2buf, int w1, int h1, int w2, int h2, JNIProcessInteractCallback callback);
 
 
     //      处理内部事务的线程
@@ -60,7 +62,7 @@ public class OpenCVCannyLib {
     }
 
     public static Bitmap intArray2Bitmap(int[] pix, int width, int height) {
-        Bitmap resultBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444);
+        Bitmap resultBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
         resultBitmap.setPixels(pix, 0, width, 0, 0, width, height);
         return resultBitmap;
     }

@@ -4,6 +4,8 @@ import android.graphics.Bitmap;
 import android.os.Handler;
 import android.os.Message;
 
+import java.lang.ref.WeakReference;
+
 /**
  * Created by root on 17-10-31.
  * 直接与使用者交互，使用者通过这里发起canny过程，
@@ -69,6 +71,11 @@ public class OpenCVCannyLibInteract {
         //直线匹配完成传回图像
     }
 
+
+    public void exit() {
+        interactHandler.removeCallbacksAndMessages(null);
+        interactHandler = null;
+    }
 
 }
 

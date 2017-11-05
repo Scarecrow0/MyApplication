@@ -34,6 +34,8 @@
                     app:srcCompat="@mipmap/building" />
 
                 <ImageView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
                     android:id="@+id/init_image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -58,6 +60,8 @@
                     android:layout_height="wrap_content" />
 
                 <ImageView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
                     android:id="@+id/edge_detect_image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -80,6 +84,8 @@
                     android:layout_height="wrap_content" />
 
                 <ImageView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
                     android:id="@+id/segment_image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
@@ -102,10 +108,18 @@
                     android:layout_height="wrap_content" />
 
                 <ImageView
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
                     android:id="@+id/segment_match_image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:id="@+id/match_rate_show" />
 
         </LinearLayout>
     </ScrollView>

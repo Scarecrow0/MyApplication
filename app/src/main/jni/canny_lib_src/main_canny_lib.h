@@ -19,6 +19,9 @@ bool isPointNear(Point p1, Point p2, double th); // 判断两个点是否接近
 double distanceBetweenLine(Line l1, Line l2);    // 估计两条直线间的距离
 int isConnect(Line l1, Line l2, int th);         // 返回连接的类型
 
+
+vector<Line> createLine(vector<Vec4f> lines);    // 对向量中的每一条直线构造Line对象
+vector<Line> cleanShort(vector<Line> lines);     //清除短小直线
 vector<Line> connectLines(vector<Line> lines, int th, Mat dst); // 连接直线
 vector<Line> clusterLines(vector<Line> lines, int th, Mat dst); // 聚合直线
 vector<Line> getTopK(vector<Line> lines, int K);         // 取得topK的直线

@@ -13,7 +13,7 @@ extern "C" {
  * Signature: ([I[IIILjava/lang/Object;)V
  */
 JNIEXPORT void JNICALL Java_OpenCvCanny_OpenCVCannyLib_cannyLauncher
-  (JNIEnv *, jclass, jintArray, jintArray, jint, jint, jobject);
+  (JNIEnv *, jclass, jintArray, jintArray, jint, jint, jint, jint, jobject);
 
 #ifdef __cplusplus
 }

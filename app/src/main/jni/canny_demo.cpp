@@ -24,7 +24,7 @@ JNIEXPORT jintArray JNICALL
 Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass obj, jintArray buf, int w, int h) {
 
     jint *cbuf;
-    cbuf = env->GetIntArrayElements(buf, false); // 读取输入参数
+    cbuf = env->GetIntArrayElements(buf, NULL); // 读取输入参数
     if (cbuf == NULL) {
         return 0;
     }
@@ -33,8 +33,6 @@ Java_com_example_lijialin_myapplication_OpenCVCanny_canny(JNIEnv *env, jclass ob
     cvtColor(image, image, COLOR_BGR2GRAY); // 转为灰度图
     GaussianBlur(image, image, Size(5,5), 0, 0); // 高斯滤波
     Canny(image, image, 50, 150, 3); // 边缘检测
-
-    // TODO 在这里添加其他方法
 
     int* outImage = new int[w * h];
     int n = 0;

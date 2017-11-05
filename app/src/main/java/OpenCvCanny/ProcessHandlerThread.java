@@ -42,11 +42,12 @@ public class ProcessHandlerThread extends HandlerThread {
                 // 从这里传入callback interface, 开始进行调用canny的jni
                 int[] imgpix1 = OpenCVCannyLib.bitmap2IntaArray(img1);
                 int[] imgpix2 = OpenCVCannyLib.bitmap2IntaArray(img2);
-                int w = img1.getWidth();
-                int h = img1.getHeight();
-
+                int w1 = img1.getWidth();
+                int w2 = img2.getWidth();
+                int h1 = img1.getHeight();
+                int h2 = img2.getHeight();
                 //在这里发起canny过程
-                OpenCVCannyLib.cannyLauncher(imgpix1, imgpix2, w, h, jniProcessInteractCallback);
+                OpenCVCannyLib.cannyLauncher(imgpix1, imgpix2, w1, h1, w2, h2, jniProcessInteractCallback);
 
             }
         };

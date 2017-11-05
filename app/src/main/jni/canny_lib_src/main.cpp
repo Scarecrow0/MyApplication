@@ -385,8 +385,8 @@ vector<Line> connectLines(vector<Line> lines, int th, Mat dst) {
 vector<Line> clusterLines(vector<Line> lines, int th, Mat dst) {
 	vector<Line> *result = new vector<Line>();
 	size_t length = lines.size();
-	hash_set<int> set;
-	hash_set<int>::iterator pos;
+	__gnu_cxx::hash_set<int> set;
+	__gnu_cxx::hash_set<int>::iterator pos;
 
 	for (int i = 0; i < length; i++) {
 		pos = set.find(i);
@@ -407,10 +407,10 @@ vector<Line> clusterLines(vector<Line> lines, int th, Mat dst) {
 				useless = false;
 				if (line1.length >= line2.length) {
 					(*result).push_back(line1);
-					//line(dst, line1.start, line1.end, Scalar(0, 255, 0), 2, CV_AA);	
+					//line(dst, line1.start, line1.end, Scalar(0, 255, 0), 2, CV_AA);
 				}else {
 					(*result).push_back(line2);
-					//line(dst, line2.start, line2.end, Scalar(0, 255, 0), 2, CV_AA);	
+					//line(dst, line2.start, line2.end, Scalar(0, 255, 0), 2, CV_AA);
 				}
 				break;
 			}
@@ -479,10 +479,10 @@ void drawLine(vector<Line> lineSet, Mat image, Scalar color, string name) {
  * 输入：两组直线，包含Line对象的向量，阈值 int
  * 输出：一个n*2的二维向量，n表示匹配的对儿数
  */
-vector<vector<Line>> makePair(vector<Line> lineSet1, vector<Line>lineSet2, int th) {
-	hash_set<int> set;
-	hash_set<int>::iterator pos;
-	vector<vector<Line>> pairSet;
+vector<vector<Line> > makePair(vector<Line> lineSet1, vector<Line>lineSet2, int th) {
+	__gnu_cxx::hash_set<int> set;
+	__gnu_cxx::hash_set<int>::iterator pos;
+	vector<vector<Line> > pairSet;
 	size_t length1 = lineSet1.size();
 	size_t length2 = lineSet2.size();
 
@@ -568,7 +568,7 @@ double match(vector<Vec4f> lines1, vector<Vec4f> lines2, InputArray m1, InputArr
 
 
 	// Step4. 从第一张图中选择一条直线，然后遍历第二张图，找到最佳的配对直线
-	vector<vector<Line>> pairSet = makePair(lineSet1, lineSet2, threshold);
+	vector<vector<Line> > pairSet = makePair(lineSet1, lineSet2, threshold);
 	size_t pairLen = pairSet.size(); // 有多少对直线
 	
 	// 画出配对后的图像，便于分析
@@ -587,7 +587,7 @@ double match(vector<Vec4f> lines1, vector<Vec4f> lines2, InputArray m1, InputArr
 
 
 	// Step 5. 计算直线与其他直线的夹角，构造夹角矩阵
-	vector<vector<double>> angleList1, angleList2;
+	vector<vector<double> > angleList1, angleList2;
 	for (int i = 0; i < pairLen; i++) {
 		vector<Line> v1 = pairSet[i];
 		vector<double> angle1, angle2;
@@ -630,7 +630,7 @@ double getAngle(double k1, double k2) {
  * 输入：二维向量
  * 输出：二维向量的均值
  */
-double calculateMean(vector<vector<double>> m) {
+double calculateMean(vector<vector<double> > m) {
 	double sum = 0.0;
 	int num = 0;
 	size_t rows = m.size();
@@ -651,7 +651,7 @@ double calculateMean(vector<vector<double>> m) {
  * 输入：两个二维向量
  * 输出：它们的相关系数，double类型
  */
-double calculateCorr2(vector<vector<double>> m1, vector<vector<double>> m2) {
+double calculateCorr2(vector<vector<double> > m1, vector<vector<double> > m2) {
 
 	double mean1 = calculateMean(m1);
 	double mean2 = calculateMean(m2);

@@ -46,19 +46,24 @@ struct SegmentResult{
         LinesData = lines;
         LinesImage  = image;
     }
+
+    void freeDataStoreSpace(){
+        vector<Vec4f>().swap(LinesData);
+    }
 };
 
-jintArray bitmapArrayFactory(JNIEnv *env, cv::Mat image, int w,int h);
+jintArray bitmapArrayFactoryGrayScale(JNIEnv *env, cv::Mat image, int w,int h);
+jintArray bitmapArrayFactoryColor(JNIEnv *env, cv::Mat image, int w,int h);
 //工厂方法 将Mat 转为jintarray  便于回调
 void ResizeImage(cv::Mat& image1,cv::Mat& image2);
 
-void EdgeDetected(Mat img1,Mat img2,CallbackInterface callbackInterface);
+void EdgeDetected(Mat img1,Mat img2,CallbackInterface& callbackInterface);
 //提取边缘过程 提取完成后进行回调
 
 SegmentResult* SegmentExtract(Mat& img);
 //直线提取 对单个图片操作 返回打包后的结果
 
-void SegmentMatch(SegmentResult img1, SegmentResult img2 , CallbackInterface callbackInterface);
+void SegmentMatch(SegmentResult* img1, SegmentResult* img2 , CallbackInterface& callbackInterface);
 //直线匹配 更新匹配结果
 //  todo  这里匹配后的直线数据需要保存作进一步处理吗
 

@@ -71,7 +71,8 @@ void MinHeap::filterDown(int current) {
 Line MinHeap::getTop() {
 	if (arr.size() != 0)
 		return arr[0];
-	return NULL;
+	Line line;
+	return line;
 }
 
 
